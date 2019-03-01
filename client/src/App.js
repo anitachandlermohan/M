@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-
+  
   constructor(props){
     super(props);
 
@@ -13,7 +13,9 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch("http://{location.host}:5000/api").then(res => res.json()).then(jsonString => {
+    let ip = location.host;
+    
+    fetch("http://" + ip + ":5000/api").then(res => res.json()).then(jsonString => {
       this.setState({
         words: jsonString.word
       });
