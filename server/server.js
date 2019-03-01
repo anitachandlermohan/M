@@ -2,7 +2,7 @@ const express = require("express");
 
 
 const app = express();
-let display = {word:"Hello World"};
+let display = {word:"Hello People"};
 app.get("/api/", (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
 
