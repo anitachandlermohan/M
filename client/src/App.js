@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch("http://localhost:5000/api").then(res => res.json()).then(jsonString => {
+    fetch("http://{location.host}:5000/api").then(res => res.json()).then(jsonString => {
       this.setState({
         words: jsonString.word
       });
