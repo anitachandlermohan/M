@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "installFolder": "npm install && cd server && npm install && npm run client-install",
+    "installFolder": "sudo npm install && cd server && sudo npm install && npm run client-install",
     "build-server": "cd server && npm run server &",
     "build-client": " cd client && npm run start &"
   },
