@@ -8,7 +8,7 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "client": "npm install && npm start &",
+    "client": "npm install && npm start",
     "start": "react-scripts start &",
     "build": "react-scripts build",
     "test": "react-scripts test",
