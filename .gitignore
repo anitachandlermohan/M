@@ -1,9 +1,10 @@
 client/node_modules
 server/node_modules
 .git
+node_modules
 coverage
 build
-package-lock.json 
+package-lock.json
 .DS_Store
 .env.local
 .env.development.local

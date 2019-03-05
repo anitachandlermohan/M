@@ -1,0 +1,22 @@
+{
+  "name": "m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && npm run server\" \"cd client && npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeMonty/M.git"
+  },
+  "author": "Luke Montgomery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeMonty/M/issues"
+  },
+  "homepage": "https://github.com/LukeMonty/M#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
