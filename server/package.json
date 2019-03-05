@@ -8,7 +8,7 @@
     "start": "node server.js &",
     "server": "npm install && npm start &",
     "client": "cd ../client && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run start\""
   },
   "author": "Luke Montgomery",
   "license": "ISC",
